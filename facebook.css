@@ -1,0 +1,143 @@
+body{
+    background-color: #f2f2f2;
+}
+div{
+    display: block;
+    display: flex;
+    width: 1080px;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.text{
+    height: 200px;
+    margin: 150px 10px 100px 100px;
+    max-width: 400px;
+    flex: 1 0 200px;
+    text-align: left;
+    display: block;
+}
+.text img{
+    width: 300px;
+    flex: 1 0 200px;
+}
+.text p{
+    color: black;
+    font-size: 34px;
+    margin: 0;
+    text-wrap: wrap;
+}
+.login{
+    background-color: white;
+    height: 300px;
+    margin: 100px 20px;
+    max-width: 400px;
+    flex: 1 0 300px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+}
+.login form{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    color: #f2f2f2;
+}
+.login form input{
+    border-radius: 5px;
+    height: 20px;
+    width: 300px;
+    padding: 5px;
+    color: #f2f2f2;
+}
+.login h1{
+    color: white;
+    background-color: #0066ff;
+    text-align: center;
+    font-size: 28px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login p{
+    text-align: center;
+    margin: 10px auto;
+}
+.login p a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #0066ff;
+}
+.login h2{
+    text-align: center;
+    font-size: 24px;
+    background-color: #739900;
+    height: 30px;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    margin: 40px auto 0;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+.create{
+    margin: 30px auto;
+}
+footer{
+    background-color: white;
+    width: 1080px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+.lang{
+    display: flex;
+    padding: 0;
+    text-align: center;
+    word-spacing: 15px;
+    line-height: 25px;
+    padding: 0;
+}
+.extra{
+text-align: center;
+    word-spacing: 20px;
+    line-height: 30px;
+    padding: 0;
+}
+
+@media only screen and (max-width:800px) {
+div{
+    display: block;
+    justify-content: space-around;
+}
+.text{
+    margin: 0 auto;
+    width: 350px;
+    padding: 0;
+}
+.text p{
+    font-size: 24px;
+}
+.login{
+    margin: 10px auto 50px;
+    width: 350px;
+    height: 300px;
+    padding: 0;
+}
+.create{
+    margin: 30px auto;
+    padding: 0;
+}
+.lang{
+    word-spacing: 15px;
+    line-height: 25px;
+    padding: 0;
+}
+.extra{
+    word-spacing: 20px;
+    line-height: 30px;
+    padding: 0;
+}
+}
